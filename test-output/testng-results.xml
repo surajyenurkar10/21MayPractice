@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[VerifyFacebookLoginPageLogo]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookLoginPageTagline]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookLoginPageCreateNewAccountBtn]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookLoginPageForgotPassword]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookLoginPageFooterlinksSize]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookLoginPageUsername]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookLoginPagePassword]]>
+    </line>
+    <line>
+      <![CDATA[SetFacebookLoginPageLogin_Btn]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-08T14:24:59Z" name="Functional Suite" finished-at="2022-10-08T14:25:32Z" duration-ms="33166">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T14:24:59Z" name="Functional Test" finished-at="2022-10-08T14:25:32Z" duration-ms="33166">
+      <class name="com.projectname.qa.TestCases.RegistrationTest">
+        <test-method is-config="true" signature="setup()" started-at="2022-10-08T14:24:59Z" name="setup" finished-at="2022-10-08T14:25:10Z" duration-ms="11186" status="PASS">
+        </test-method>
+        <test-method signature="FacebookRegistrationPageTest_Positive()" started-at="2022-10-08T14:25:10Z" name="FacebookRegistrationPageTest_Positive" finished-at="2022-10-08T14:25:19Z" duration-ms="9006" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="teardown()" started-at="2022-10-08T14:25:19Z" name="teardown" finished-at="2022-10-08T14:25:20Z" duration-ms="496" status="PASS">
+        </test-method>
+      </class>
+      <class name="com.projectname.qa.TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()" started-at="2022-10-08T14:25:20Z" name="setup" finished-at="2022-10-08T14:25:29Z" duration-ms="9849" status="PASS">
+        </test-method>
+        <test-method signature="FacebookLoginPageTest()" started-at="2022-10-08T14:25:29Z" name="FacebookLoginPageTest" finished-at="2022-10-08T14:25:31Z" duration-ms="1996" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="teardown()" started-at="2022-10-08T14:25:31Z" name="teardown" finished-at="2022-10-08T14:25:32Z" duration-ms="593" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
